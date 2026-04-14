@@ -1,34 +1,124 @@
+# Supervised Learning - Regression
 
-# Regression
+## Overview
+Supervised Learning is a type of machine learning where:
+- The model is trained using **labeled data**
+- Each input has a corresponding **output value**
 
-Definition
+Regression is a task in supervised learning where:
+- The goal is to **predict continuous values**
 
-Predicts continuous numerical values.
+---
 
-## Algorithms
+## What is Regression?
 
-Linear Regression
+Regression is the process of:
+- Predicting a **numeric value** based on input features
 
-Polynomial Regression
+### Examples
+- Predicting house price
+- Predicting temperature
+- Predicting salary based on experience
+- Predicting sales revenue
 
-Ridge Regression
+---
 
-Lasso Regression
+## Types of Regression
 
-Support Vector Regression (SVR)
+### 1. Simple Linear Regression
+- Uses one independent variable
+- Models relationship as a straight line
 
-## Projects
+Equation:
 
-House Price Prediction
+y = w x + b
 
-Salary Prediction
 
-Sales Forecasting
+---
+
+### 2. Multiple Linear Regression
+- Uses more than one feature
+
+Equation:
+
+y = w1 x1 + w2 x2 + ... + wn xn + b
+
+
+---
+
+### 3. Polynomial Regression
+- Models non-linear relationships
+- Uses higher-degree terms
+
+Example:
+
+y = w1 x + w2 x^2 + w3 x^3 + b
+
+
+---
+
+### 4. Ridge Regression
+- Linear regression with L2 regularization
+- Reduces overfitting
+
+---
+
+### 5. Lasso Regression
+- Linear regression with L1 regularization
+- Can perform feature selection
+
+---
+
+### 6. Elastic Net
+- Combination of Ridge and Lasso
+
+---
+
+## Common Regression Algorithms
+
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
+- Support Vector Regression (SVR)
+- Gradient Boosting Regressor
+
+---
+
+## Regression Workflow
+
+1. Collect labeled data
+2. Split data into training and testing sets
+3. Train the model
+4. Predict continuous values
+5. Evaluate performance
+
+---
 
 ## Evaluation Metrics
 
-Mean Absolute Error (MAE)
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score (Coefficient of Determination)
 
-Mean Squared Error (MSE)
+---
 
-Root Mean Squared Error (RMSE)
+## Applications
+
+- Price prediction
+- Demand forecasting
+- Risk assessment
+- Weather forecasting
+- Financial analysis
+
+---
+
+## Summary
+
+Regression is a supervised learning task used to predict continuous numeric values.
+
+Key points:
+- Uses labeled data
+- Output is continuous
+- Models relationships between variables
+
